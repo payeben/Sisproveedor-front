@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Card, Table, Button } from 'react-bootstrap';
+import { Card, Table } from 'react-bootstrap';
 import { UserContext } from '../context/UserContext'; // Importa el contexto del usuario
 
 const Profile = () => {
