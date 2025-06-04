@@ -1,0 +1,63 @@
+/* Estilos para el body */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+/* Sidebar */
+.sidebar {
+    background: linear-gradient(135deg, #003A72, #0061C1);
+    color: #FFFFFF;
+    min-height: 100vh;
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+}
+
+/* Enlaces del sidebar */
+.sidebar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Tablas */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: left;
+}
+
+.table th {
+    background-color: #F5F5F5;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #F1F1F1;
+}
